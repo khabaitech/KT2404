@@ -9,10 +9,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color:f3f3f3;
+  background-color:#f5f5f5;
   color: #4e4e4e;
 }
-
+  
 h1,
 h2,
 h3,
@@ -21,6 +21,10 @@ h5,
 h6 {
   color: #1e1e1e;
 }
+p{
+  font-family: cursive;
+}
+
 
 a {
   color: #1e1e1e;
