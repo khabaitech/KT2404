@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: antiquewhite;
+        }
+        #google{margin-top: 50px;}
+        
+        #container{
+            display: table;
+           
+           
+            margin: 100px auto;
+            left: 50px;
+            width: 350px;
+            height: 320px;
+          
+            position: relative;
+            
+        }
+       #container span{
+        position: absolute;
+        height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin: auto;
+           
+        }
+       .blue{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: blue;
+            top: 200px;
+            animation: bl 1.5s infinite;
+        }
+        @keyframes bl{
+            50%{
+                transform: translateY(10px);
+                height: 50px;
+            }
+           
+           100%{
+            transform: translateY(-30px);
+            height: 100px;
+            border-radius: 50px 50px 50px 50px;
+           }
+        }
+        .red{
+            height: 50px;
+            width: 50px;
+            
+            border-radius: 50%;
+            background-color:red;
+            top: 200px;
+            left: 70px;
+            animation: re 1.5s infinite;
+            
+        }
+        @keyframes re{
+            50%{
+                transform: translateY(-20px);
+                height: 50px;
+           
+            }
+           
+           100%{
+            transform: translateY(-70px);
+            height: 140px;
+            border-radius: 70px 70px 70px 70px;
+           }
+        }
+        
+        
+        .yellow{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: yellow;
+            top: 200px;
+            left: 140px;
+            animation: ye 1.5s infinite;
+          
+        }
+        @keyframes ye{
+            50%{
+                transform: translateY(20px);
+                height: 50px;
+            }
+           
+           100%{
+            transform: translateY(-110px);
+            height: 170px;
+            border-radius: 85px 85px 85px 85px;
+           }
+        }
+        .green{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: green;
+            top: 200px;
+            left: 210px;
+            animation: gr 1.5s infinite;
+           
+        }
+        @keyframes gr{
+            50%{
+                transform: translateY(-5px);
+                height: 50px;
+            }
+           
+           100%{
+            transform: translateY(-50px);
+            height: 120px;
+            border-radius: 60px 60px 60px 60px;
+           }
+        }
+        
+    </style>
+</head>
+<body>
+   <h1 id="google"> <center><img src="image/google-removebg-preview.png" ></center></h1>
+    <div id="container">
+      
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+    </div>
+</body>
+</html>
